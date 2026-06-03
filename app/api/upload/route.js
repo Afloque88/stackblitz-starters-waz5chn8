@@ -1,4 +1,3 @@
-app/api/upload/route.js
 import { b2Client, BUCKET_NAME } from '@/lib/b2'
 import { createClient } from '@/lib/supabase'
 import { PutObjectCommand } from '@aws-sdk/client-s3'

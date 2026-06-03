@@ -1,4 +1,3 @@
-app/api/submissions/route.js
 import { createClient } from '@/lib/supabase'
 import { b2Client, BUCKET_NAME } from '@/lib/b2'
 import { GetObjectCommand, DeleteObjectCommand } from '@aws-sdk/client-s3'
